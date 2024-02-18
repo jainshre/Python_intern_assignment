@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  -webkit-backgroung-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+}
+.content_area {
+  background-position: center center;
+  height: 100%;
+}
+.search
+{
+  position: absolute;
+  top: 45%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+}
+#city{
+  width: 300px;
+  height: 45px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: .5s;
+  padding-left: 20px;
+  padding-left: 8px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+}
+#city:focus{
+  color: black;
+  box-shadow: 0 0 60px black;
+  border-color: black;
+}
+
+.search #symb{
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
+  top: 0; 
+  text-align: center;
+  right: 0;
+  width: 43px;
+  height: 43px;
+  border-radius: 5px;
+  line-height: 50px;
+  cursor: pointer;
+  transition: .5s;
+}
+#Find{
+  position: absolute;
+  top: 42%;
+  left: 58%;
+  width: 60px;
+  height: 43px;
+  border-radius: 5px;
+}
